@@ -111,5 +111,8 @@ Understood IAM, logging, and monitoring in real-world context
 - Terraform installed (v1.0+)
 - IAM user with proper permissions
 
+### 📸 More Screenshots  
+See the [full deployment walkthrough]() for categorized step-by-step images.
+
 ## 📄 License
 This project is for educational use and job portfolio demonstration only.
