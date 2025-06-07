@@ -112,7 +112,7 @@ Understood IAM, logging, and monitoring in real-world context
 - IAM user with proper permissions
 
 ### 📸 More Screenshots  
-See the [full deployment walkthrough]() for categorized step-by-step images.
+See the [full deployment walkthrough](https://github.com/madhavi1443/SecureCloudOps/tree/main/screenshots) for categorized step-by-step images.
 
 ## 📄 License
 This project is for educational use and job portfolio demonstration only.
