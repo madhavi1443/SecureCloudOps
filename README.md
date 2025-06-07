@@ -66,7 +66,6 @@ SSH over Bastion (Jump-box setup)
 | `.terraform.lock.hcl` | Provider lock file |
 
 ## 📂 Project Structure
-
 securecloudops/
 
 ├── main.tf
@@ -83,47 +82,34 @@ securecloudops/
 
 └── securecloudops-key.pem (excluded in .gitignore)
 
+## 📸 Key Screenshots
+### 🔧 VPC Resource Map
+![1  VPC resource map view – visual layout of subnets, route table, and IGW in SecureCloudOps-VPC](https://github.com/user-attachments/assets/717b779a-5341-46bb-8051-9b23216833ba)
 
-## 📸 Demo Screenshots
+### 🖥️ EC2 Instances Running
+![1  Shows both EC2 instances (bastion + private) in running state](https://github.com/user-attachments/assets/bc07a336-511f-4ca6-9351-59c69eace069)
 
-Include:
-
-Terraform Apply Output (Success)
-
-S3 Bucket with CloudTrail logs
-
-GuardDuty enabled
-
-KMS Key created
-
-SSH from Bastion → Private EC2
-
-GitHub Repo Screenshot
+### 🛡️ CloudTrail + GuardDuty Summary
+![1  Shows complete CloudTrail setup](https://github.com/user-attachments/assets/8a6b33a6-ab45-4326-ab7c-b3436dd04845)
+![1  proactive threat monitoring](https://github.com/user-attachments/assets/09e7cc95-dcb4-4d4b-aaed-07259f2fece4)
 
 ## 🔐 Data Encryption
-
 To ensure all logs and resources are securely encrypted at rest, a Customer Managed Key (CMK) was created using AWS KMS.
-
-![KMS Key Configuration]
-
 ![Screenshot 2025-06-05 012518](https://github.com/user-attachments/assets/96567cf4-32b1-45c6-bfdb-43b5455b7e03)
 
-
-
 ### 🖥️ Terraform Deployment Output
-
 Below is a snapshot of the successful Terraform infrastructure deployment including bastion EC2, S3 with encryption, and CloudTrail logging:
-[Terraform Apply Output] 
-
 ![terraform-deploy-output](https://github.com/user-attachments/assets/906208cc-bc11-4f9c-9370-94d70cb24db2)
 
 ### 🧠 Learning Outcomes
 Built secure cloud infra via Terraform from scratch
-
 Practiced encryption, access control, and secure networking
-
 Understood IAM, logging, and monitoring in real-world context
 
-## 📄 License
+### Prerequisites
+- AWS CLI configured (`aws configure`)
+- Terraform installed (v1.0+)
+- IAM user with proper permissions
 
+## 📄 License
 This project is for educational use and job portfolio demonstration only.
