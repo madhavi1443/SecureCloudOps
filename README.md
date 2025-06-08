@@ -36,8 +36,7 @@ SSH over Bastion (Jump-box setup)
 
 ## 📐 Architecture
 
-> [Insert architecture diagram here — link to `architecture.png` or embed from draw.io]
-
+![SecureCloudOps Architecture](./screenshots/securecloudops-architecture.png)
 - Custom VPC with public/private subnets across two AZs
 - Bastion EC2 instance in public subnet (SSH entry point)
 - Private EC2 instance with no public IP
